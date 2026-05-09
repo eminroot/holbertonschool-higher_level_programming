@@ -9,6 +9,7 @@ import json
 
 class SimpleAPIHandler(BaseHTTPRequestHandler):
     def do_GET(self):
+        print("It serves different endpoints")
         """Handle GET requests for different endpoints"""
 
         # Root endpoint: /
